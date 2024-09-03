@@ -5,4 +5,4 @@
 
 <a href="https://luizdanieldev.github.io/html-css/exercicios/ex 010/pag002.html">Décimo Exercicio</a>
 
-<a href="https://luizdanieldev.github.io/html-css/exercicios/desafio 010/index.html">Projeto Android </a>
+<a href="https://luizdanieldev.github.io/html-css/exercicios/desafio 010/desafio10.html">Projeto Android </a>
