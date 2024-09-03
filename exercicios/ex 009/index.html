@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+    <style>
+      h1{
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 30pt;
+          color: darkred;
+      }
+      h2{
+        color: darkgreen;
+      }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2> <!--A, a, 1, I, i-->
+    <ol type="a" style="background-color: rgb(183, 240, 126);">
+        <li>Acordar</li> <!--a tag de fechamento li é opcional após o html5, exemplo abaixo-->
+        <li>Ligar para o João
+        <li>Tomar cafe
+        <li>Escovar os dentes
+    </ol>
+    <h2>Listas não ordenadas</h2> <!--Disc, Circle, Square-->
+    <ul type="circle" style="background-color: mediumaquamarine;">
+        <li>pão
+        <li>leite
+        <li>tomate
+        <li>manteiga
+        <li>arroz
+        <li>feijao
+    </ul>
+    <h2>Minhas linguages favoritas</h2>
+    <ol type="1" style="background-color: mediumslateblue;">
+        <li>Antigas
+        <ol type="a">
+            <li>Cliper
+            <li>Visual Basic
+            <li>Fortran
+            <li>Delphi
+        </ol>
+        <li>Novas
+      <ol type="a" start="5"> <!--Deve-se colocar o numero da posição da letra no alfabeto para informar em qual letra o start deve começar, ex: e=5-->
+            <li>PHP
+            <li>Python
+            <li>JavaScript
+            <li>Kotlin
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol style="background-color: steelblue;">
+        <li>Nintendo
+        <ul>
+            <li>Mario
+              <ul type="square">
+                  <li>Mario Bros 3
+                  <li>Mario: Lost Leve
+              </ul>
+            <li>Donkey Kong
+        </ul>
+        <li>Super nintendo
+        <ul>
+            <li>Maruo Bros
+            <li>Ninja Gaiden
+        </ul>
+        <li>Playstation
+        <ul>
+            <li>Need for speed
+            <li>Cal of Duty: Black Opps
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl style="background-color: aquamarine;">
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de conteudo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcção para criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

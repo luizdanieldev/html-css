@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic
+}
+/*
+Medidas absolutas:
+cm - centimetro 
+mm - milimetro
+in - polegadas 
+px - pixels (utilizar como padrão)
+pc - paica (não utilizar em material impresso em tela) 
+pt - ponto (não utilizar em material impresso em tela)
+
+Medidas relativas:
+em - Altura M de uma fonte
+ex - Altura x de uma fonte
+rem - tipo ao em só que é a fonte que está no rut (fonte do body)
+vw - view widf (largura da view port porcentagem da tela)
+vh - altura da view port
+% - porcentagem
+
+ATENÇÃO:
+UTILIZAR *APENAS EM e PX*
+
+16 px geralmente = 1em (tamanhão padrao das fontes nos sites)
+*/
+h1 {
+    /* 
+    font-family: 'work sans'; a fonte utilizada
+    font-weight: bolder; a grossura da fonte (negrito)
+    font-size: 3em; o tamanho da fonte (px tbm serve)
+    font-style: italic; estilo da fonte
+
+    atalho para esses comandos é chamado de SHORTHAND font
+    font: font-style -> font-weigth -> font-size -> font-family
+    */
+    font: italic bolder 2em 'Impact'
+
+}
